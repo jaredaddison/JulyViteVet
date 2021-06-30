@@ -2,7 +2,7 @@
     "name": "djvitesse",
     "version": "1.0.0",
     "scripts": {
-        "start": "pnpm i && pnpm run dev",
+        "start": "npm i -g pnpm && pnpm install && pnpm run dev",
         "dev": "vite --open",
         "lint": "eslint 'src/**/*.{vue,js}'",
         "lint:dry": "eslint 'src/**/*.{vue,js}' --fix-dry-run",
