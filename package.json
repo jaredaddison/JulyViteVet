@@ -4,16 +4,15 @@
     "scripts": {
         "start": "pnpm i && pnpm run dev",
         "dev": "vite --open",
-        "lint": "eslint \"src/**/*.{vue,js}\"",
-        "lint:dry": "eslint \"src/**/*.{vue,js}\" --fix-dry-run",
-        "lint:fix": "eslint \"src/**/*.{vue,js}\" --fix",
-        "prettier": "prettier \"src/**/*.{vue,js}\"",
-        "vti": "vti diagnostics \"src/**/*.{vue,js}\"",
+        "lint": "eslint 'src/**/*.{vue,js}'",
+        "lint:dry": "eslint 'src/**/*.{vue,js}' --fix-dry-run",
+        "lint:fix": "eslint 'src/**/*.{vue,js}' --fix",
+        "prettier": "prettier 'src/**/*.{vue,js}'",
+        "vti": "vti diagnostics 'src/**/*.{vue,js}'",
         "build": "vite build",
         "serve": "vite preview"
     },
     "dependencies": {
-        "pnpm": "^6.9.1",
         "vue": "^3.1.1",
         "vue-router": "^4.0.8",
         "vuex": "^4.0.1"
