@@ -1,0 +1,16 @@
+vscode:
+extensions:
+- csstools.postcss
+- octref.vetur
+- tabnine.tabnine-vscode
+- csstools.postcss
+- esbenp.prettier-vscode
+- dbaeumer.vscode-eslint
+- antfu.vite
+- antfu.iconify
+- antfu.slidev
+- antfu.theme-vitesse
+- bradlc.vscode-tailwindcss
+- xabikos.javascriptsnippets
+- editorconfig.editorconfig
+- antfu.theme-vitesse

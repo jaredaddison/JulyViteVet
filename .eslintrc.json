@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "plugin:vue/vue3-recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "vue",
+        "prettier"
+    ],
+    "rules": {
+        "no-multiple-template-root": 0,
+        "no-parsing-error": 0,
+        "no-undef": 0,
+        "no-unused-vars": 0,
+        "one-component-per-file": 0
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "djvitesse",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "pnpm i && pnpm run dev",
+        "dev": "vite --open",
+        "lint": "eslint \"src/**/*.{vue,js}\"",
+        "lint:dry": "eslint \"src/**/*.{vue,js}\" --fix-dry-run",
+        "lint:fix": "eslint \"src/**/*.{vue,js}\" --fix",
+        "prettier": "prettier \"src/**/*.{vue,js}\"",
+        "vti": "vti diagnostics \"src/**/*.{vue,js}\"",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "dependencies": {
+        "pnpm": "^6.9.1",
+        "vue": "^3.1.1",
+        "vue-router": "^4.0.8",
+        "vuex": "^4.0.1"
+    },
+    "devDependencies": {
+        "@headlessui/vue": "^1.2.0",
+        "@heroicons/vue": "^1.0.1",
+        "@iconify/json": "^1.1.356",
+        "@vitejs/plugin-vue": "^1.2.3",
+        "@vue/compiler-sfc": "^3.1.1",
+        "eslint": "^7.28.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-vue": "^7.11.1",
+        "prettier": "^2.3.1",
+        "vite": "^2.3.7",
+        "vite-plugin-components": "^0.11.1",
+        "vite-plugin-icons": "^0.6.2",
+        "vite-plugin-pages": "^0.13.2",
+        "vite-plugin-vue-layouts": "^0.3.1",
+        "vite-plugin-windicss": "^1.0.4",
+        "windicss": "^3.1.3"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "jsxBracketSameLine": true,
+    "semi": false,
+    "jsxSingleQuote": true,
+    "plugins": ["eslint"],
+    "vueIndentScriptAndStyle": false,
+    "embeddedLanguageFormatting": "auto",
+    "tabWidth": 2,
+    "useTabs": true,
+    "printWidth": 90,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": false,
+    "arrowParens": "avoid",
+    "quoteProps": "as-needed",
+    "htmlWhitespaceSensitivity": "css",
+    "proseWrap": "preserve"
+}
