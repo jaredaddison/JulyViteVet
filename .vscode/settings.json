@@ -3,16 +3,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.enableFiletypes": [
-    "!asciidoc",
-    "!c",
-    "!csharp",
-    "!css",
-    "!graphql",
-    "vue"
-  ],
   "editor.autoClosingQuotes": "beforeWhitespace",
   "editor.autoIndent": "advanced",
   "editor.codeActionsOnSave": {
@@ -30,10 +22,10 @@
     "html": "html",
     "json": "json",
     "postcss": "css",
-    "vue": "vue"
+    "vue": "vue-html"
   },
   "eslint.alwaysShowStatus": true,
-  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.codeActionsOnSave.mode": true,
   "eslint.format.enable": true,
   "files.autoSave": "onFocusChange",
   "tailwindCSS.colorDecorators": true,
